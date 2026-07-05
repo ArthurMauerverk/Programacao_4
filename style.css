@@ -1,0 +1,258 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: #fddee6;
+}
+
+/*Cabeçallho*/
+header{
+
+    background-color: #fd92ab;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.list-header, li{
+
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.link-header{
+
+    color: white;
+    text-decoration: none;
+}
+/*Fim do Cabeçallho*/
+
+.Banner-Destaque{
+
+    background: linear-gradient(to right, #f47294, #f5a1b7);
+    color: white;
+    text-align: center;
+    padding: 70px;
+}
+
+.Sobre{
+    
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 100px;
+    margin-top: 35px;
+    margin-bottom: 0px;
+    border: 2px solid #f07695;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 0px #f07695;
+}
+
+/*Seção Personagens*/
+
+.Personagens{
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 100px;
+    margin-bottom: 0px;
+    margin-top: 35px;
+    border: 2px solid #f07695;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 0px #f07695;
+}
+
+.Titulo-Personagens{
+
+    padding: 5px;
+    padding-left: 0px;
+}
+
+#Lista-Personagens{
+
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content:center;
+    align-items: center;    
+}
+
+.Personagem-Cinnamoroll{
+    background-color: #ffa6bb;
+    text-align: center;
+    border-radius: 18px;
+    padding: 15px 40px 15px 40px;
+    transition: all 0.1s ease-in-out 0s;
+}
+
+.Personagem-Cinnamoroll:hover{
+
+    transform: scale(1.05);
+    cursor: pointer;
+
+}
+
+.Personagem{
+
+    background-color: #ffa6bb;
+    text-align: center;
+    border-radius: 18px;
+    padding: 15px 20px 15px 20px;
+    transition: all 0.1s ease-in-out 0s;
+}
+
+.Personagem:hover{
+
+    transform: scale(1.05);
+    cursor: pointer;
+
+}
+
+/*Fim da Seção Personagens*/
+
+/*Seção da Galeria*/
+
+.Galeria{
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 100px;
+    margin-top: 35px;
+    margin-bottom: 0px;
+    border: 2px solid #f07695;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 0px #f07695;    
+
+}
+
+.Titulo-Galeria{
+    padding: 5px;
+    padding-left: 0px;
+    margin-bottom: 15px;
+
+}
+
+.Personagens-Galeria{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+
+}
+
+.Personagem-Galeria{
+    background: linear-gradient(to right, #f47294, #eeb5c4);
+    border-radius: 15px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    transition: all 0.1s ease-in-out 0s;
+
+}
+
+.Personagem-Galeria:hover{
+    background: linear-gradient(45deg, #f47294, #ffe7e7);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.img-Galeria{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+
+}
+
+/*Fim da Seção da Galeria*/
+
+/*Seção de Formulário*/
+
+.Formulario{
+
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 100px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border: 2px solid #f07695;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 0px #f07695;
+
+}
+
+.Titulo-Formulario{
+
+    padding: 5px;
+    padding-left: 0px;
+    margin-bottom: 5px;
+
+}
+
+.Input-Formulario{
+
+    border: 1px solid #ec96ac;
+    border-radius: 10px;
+    width: 1260px;
+    padding: 10px;
+    margin: 6px;
+    
+
+}
+
+.Input-Formulario:focus{
+
+    border-color: #ec96ac;
+    outline: none;
+
+}
+
+#mensagem{
+
+    border: 1px solid #ec96ac;
+    border-radius: 10px;
+    width: 1260px;
+    padding: 12px;
+    margin: 6px;
+
+}
+
+#mensagem:focus{
+
+    border-color: #ec96ac;
+    outline: none;
+
+}
+
+#Enviar{
+
+    background-color: #fd85a1;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 1260px;
+    border: 1px solid #ec96ac;
+    border-radius: 10px;
+    margin: 6px;
+
+}
+
+#Enviar:hover{
+    cursor: pointer;
+}
+
+/*Fim da Seção de Formulário*/
+
+footer{
+
+    background-color: #fd85a1;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
